@@ -15,9 +15,6 @@
       "matches": [
         "https://*.magister.net/*"
       ],
-      "css": [
-        "src/inject/inject.css"
-      ],
       "js": [
         "thirdparty/jquery-3.5.1.min.js",
         "src/inject/inject.js"

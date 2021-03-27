@@ -1,8 +1,0 @@
-/**
- * Hier komen de te injecteren scripts te staan.
- **/
-
- .cijfers-k-grid.k-grid .grade.insufficient {
-     font-weight: normal !important;
-     color: #000000 !important;
- }
