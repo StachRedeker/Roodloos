@@ -17,15 +17,12 @@
       ],
       "css": [
         "src/inject/inject.css"
-      ]
-    },
-    {
-      "matches": [
-        "https://*.magister.net/*"
       ],
       "js": [
+        "thirdparty/jquery-3.5.1.min.js",
         "src/inject/inject.js"
-      ]
+      ],
+      "run_at": "document_end"
     }
   ]
 }
