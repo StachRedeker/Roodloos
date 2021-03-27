@@ -1,6 +1,6 @@
 {
   "name": "Roodloos",
-  "version": "0.0.6",
+  "version": "0.1.2",
   "manifest_version": 2,
   "description": "Nooit meer rode cijfers op Magister. Deze extensie kleurt alle onvoldoendes zwart. Dan vallen ze minder op. Wel zo fijn.",
   "homepage_url": "https://github.com/StachRedeker/roodloos",
