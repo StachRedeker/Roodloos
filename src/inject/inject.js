@@ -1,16 +1,18 @@
-chrome.extension.sendMessage({}, function(response) {
-	var readyStateCheckInterval = setInterval(function() {
-	if (document.readyState === "complete") {
-		clearInterval(readyStateCheckInterval);
+$(() => {
+	setTimeout(adjustClasses, 10)
+	$(".container").on('click', "#cijferslaatstbehaalderesultaten-uitgebreideweergave", () => {
+		setTimeout(adjustClasses, 10)
+	});
 
-		// ----------------------------------------------------------
-		// This part of the script triggers when page is done loading
-		console.log("Hello. This message was sent from scripts/inject.js");
-    document.querySelectorAll(".insufficient").forEach((it) => {
-        it.classList.remove("insufficient");
-    })
-		// ----------------------------------------------------------
+	$(".container").on('click', '[ng-click="ctrl.onLaatsteCijfersClick()"]', () => {
+		setTimeout(adjustClasses, 10)
+	});
+})
 
+async function adjustClasses() {
+	if ($(".loading-overlay").css("display") != "none" || ($("#cijferoverzichtgrid").hasClass("cijfers-k-grid") && $(".grade").length == 0)) {
+		setTimeout(adjustClasses, 10)
 	}
-	}, 10);
-});
+	$(".insufficient").removeClass("insufficient");
+	$(".onvoldoende").removeClass("onvoldoende");
+}
