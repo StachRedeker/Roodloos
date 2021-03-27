@@ -3,6 +3,6 @@
  **/
 
  .cijfers-k-grid.k-grid .grade.insufficient {
-     font-weight: bold;
+     font-weight: normal !important;
      color: #000000 !important;
  }
