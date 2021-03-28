@@ -50,5 +50,13 @@ Ik besloot mijn eigen css-class te injecteren op Magister-pagina's. Deze css-cla
 
 Klein probleempje: dit werkt niet (helemaal). Zowel mijn stukje css als Magisters css gebruiken `!important`. Dat forceert de waarde waarachter de `!important` staat. Mijn injectie vindt direct **voor** het inladen van de pagina plaats. Dit lijkt de enige standaard te zijn voor css-injecties, want dan wordt nooit de 'slechte' css-versie van een site ingeladen. Ik heb geen idee hoe ik dit kan wijzige en dus staat mijn css-class hoger in `style.css` dan Magisters eigen class. Dit laatste heeft als gevolg dat Magisters eigen class wordt doorgevoerd, en niet de mijne.
 
+Ik stuurde mijn hulpvraag naar de beste programmeur van het universum: Noah Verkaik ([Nowaha](https://github.com/Nowaha)). Hij vond al snel een JavaScript-oplossing die deels werkte. Wanneer onderstaand stukje code in de `console` werd ingevoerd, verdween de rode kleur als sneeuw voor de zon.
+
+```JavaScript
+$(".insufficient").removeClass("insufficient")
+```
+
+Helaas werkte deze methode niet als js-injectie, omdat de extensie geen toegang had tot `jquery`. Bovendien kon de extensie ook niet detecteren wanneer de cijferlijst volledig was ingeladen. Ik ging avondeten en nog voor ik mijn dessert had verorberd, kreeg ik een pull-request van Noah binnen. Hij had beide problemen binnen een uur oplost en is dus de échte held van deze extensie.
+
 ## Licentie
 [MIT](LICENSE)
