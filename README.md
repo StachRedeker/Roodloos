@@ -31,10 +31,24 @@ Ga naar [`extensies`](chrome://extensions/) en activeer `Ontwikkelaarsmodus`. Dr
 Ga naar [`add-ons`](about:addons) en klik op het instellingenpictogram. Selecteer `Add-ons debuggen` en klik daarna op `Tijdelijke add-on laden...`. Upload een zip-bestand met als inhoud de zojuist gedownloade map.
 
 ## Werking
+Na een eerste inspectie van Magister vond ik dat onderstaande css-class verantwoordelijk is voor de rode kleur van onvoldoendes.
 
-```python
-xxx
+```css
+.cijfers-k-grid.k-grid .grade.insufficient {
+    font-weight: bold;
+    color: #c3000c !important;
 ```
+
+Ik besloot mijn eigen css-class te injecteren op Magister-pagina's. Deze css-class luidde als volgt:
+
+```css
+.cijfers-k-grid.k-grid .grade.insufficient {
+    font-weight: normal !important;
+    color: #000000 !important;
+}
+```
+
+Klein probleempje: dit werkt niet (helemaal). Zowel mijn stukje css als Magisters css gebruiken `!important`. Dat forceert de waarde waarachter de `!important` staat. Mijn injectie vindt direct **voor** het inladen van de pagina plaats. Dit lijkt de enige standaard te zijn voor css-injecties, want dan wordt nooit de 'slechte' css-versie van een site ingeladen. Ik heb geen idee hoe ik dit kan wijzige en dus staat mijn css-class hoger in `style.css` dan Magisters eigen class. Dit laatste heeft als gevolg dat Magisters eigen class wordt doorgevoerd, en niet de mijne.
 
 ## Licentie
 [MIT](LICENSE)
