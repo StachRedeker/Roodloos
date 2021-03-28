@@ -22,7 +22,7 @@ Roodloos...
 
 Roodloos wordt op dit moment ingediend om in de Chrome Web Store en de Firefox add-ons-library te verschijnen.
 
-Je kunt de extensie nu al handmatig installeren. Download de map `nl_NL` van de laatste versie.
+Je kunt de extensie nu al handmatig installeren. Download het zip-bestand van de laatste versie.
 
 **Chrome:** <br>
 Ga naar [`extensies`](chrome://extensions/) en activeer `Ontwikkelaarsmodus`. Druk dan op `Uitgepakte extensie laden` en navigeer naar de downloadlocatie op je computer. Druk op `selecteren` en je hebt de extensie succesvol geïnstalleerd!
