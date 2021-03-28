@@ -61,3 +61,6 @@ Helaas werkte deze methode niet als js-injectie, omdat de extensie geen toegang 
 
 ## Licentie
 [MIT](LICENSE)
+
+## Disclaimer
+Roodloos is een privé-initatief en maakt geen deel uit van Magister, Schoolmaster BV en/of Iddink. Gebruik van deze extensie is op eigen risico. De makers zijn niet aansprakelijk voor eventuele schade.
