@@ -28,7 +28,7 @@ Je kunt de extensie nu al handmatig installeren. Download het zip-bestand van de
 Ga naar [`extensies`](chrome://extensions/) en activeer `Ontwikkelaarsmodus`. Druk dan op `Uitgepakte extensie laden` en navigeer naar de downloadlocatie op je computer. Druk op `selecteren` en je hebt de extensie succesvol geïnstalleerd!
 
 **Firefox:** <br>
-Ga naar [`add-ons`](about:addons) en klik op het instellingenpictogram. Selecteer `Add-ons debuggen` en klik daarna op `Tijdelijke add-on laden...`. Upload een zip-bestand met als inhoud de zojuist gedownloade map (`nl_NL`).
+Ga naar [`add-ons`](about:addons) en klik op het instellingenpictogram. Selecteer `Add-ons debuggen` en klik daarna op `Tijdelijke add-on laden...`. Upload een zip-bestand met als inhoud de zojuist gedownloade map.
 
 ## Werking
 
