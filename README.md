@@ -36,8 +36,5 @@ Ga naar [`add-ons`](about:addons) en klik op het instellingenpictogram. Selectee
 xxx
 ```
 
-## Contributing
-Pull requests zijn welkom. Open voor grote wijzigingen eerst een Issue om te bespreken wat je zou willen veranderen.
-
 ## Licentie
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE)
