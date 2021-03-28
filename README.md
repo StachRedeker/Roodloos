@@ -37,6 +37,7 @@ Na een eerste inspectie van Magister vond ik dat onderstaande css-class verantwo
 .cijfers-k-grid.k-grid .grade.insufficient {
     font-weight: bold;
     color: #c3000c !important;
+}
 ```
 
 Ik besloot mijn eigen css-class te injecteren op Magister-pagina's. Deze css-class luidde als volgt:
