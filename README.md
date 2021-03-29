@@ -20,15 +20,13 @@ Roodloos...
 
 ## Installatie
 
-Roodloos wordt op dit moment ingediend om in de Chrome Web Store en de Firefox add-ons-library te verschijnen.
-
-Je kunt de extensie nu al handmatig installeren. Download het zip-bestand van de laatste versie.
+Roodloos wordt op dit moment ingediend om in de Chrome Web Store te verschijnen. Als je de extensie in Chrome wil gebruiken, download dan het laatste zip-bestand (`Roodloos 1.0.0`) en volg de instructies hieronder.
 
 **Chrome:** <br>
 Ga naar [`extensies`](chrome://extensions/) en activeer `Ontwikkelaarsmodus`. Druk dan op `Uitgepakte extensie laden` en navigeer naar de downloadlocatie op je computer. Druk op `selecteren` en je hebt de extensie succesvol geïnstalleerd!
 
 **Firefox:** <br>
-Ga naar [`add-ons`](about:addons) en klik op het instellingenpictogram. Selecteer `Add-ons debuggen` en klik daarna op `Tijdelijke add-on laden...`. Upload een zip-bestand met als inhoud de zojuist gedownloade map.
+Ga naar de [Add-on-library](https://addons.mozilla.org/nl/firefox/addon/roodloos/) en druk op de blauwe knop `Toevoegen aan Firefox`.
 
 ## Werking
 Na een eerste inspectie van Magister vond ik dat onderstaande css-class verantwoordelijk is voor de rode kleur van onvoldoendes.
