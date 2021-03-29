@@ -20,10 +20,10 @@ Roodloos...
 
 ## Installatie
 
-Roodloos wordt op dit moment ingediend om in de Chrome Web Store te verschijnen. Als je de extensie in Chrome wil gebruiken, download dan het laatste zip-bestand (`Roodloos 1.0.0`) en volg de instructies hieronder.
+Installatie van Roodloos is eenvoudig en duurt slechts één minuut. Na installatie werkt de extensie direct. Volg de stappen van het internetbrowser naar jouw keuze hieronder.
 
 **Chrome:** <br>
-Ga naar [`extensies`](chrome://extensions/) en activeer `Ontwikkelaarsmodus`. Druk dan op `Uitgepakte extensie laden` en navigeer naar de downloadlocatie op je computer. Druk op `selecteren` en je hebt de extensie succesvol geïnstalleerd!
+Ga naar de [Chrome Web Store](https://chrome.google.com/webstore/detail/roodloos/kipkgojmkiodkalnlmliakflkclojgoj) en druk op de blauwe knop `Toev. aan Chrome`.
 
 **Firefox:** <br>
 Ga naar de [Add-on-library](https://addons.mozilla.org/nl/firefox/addon/roodloos/) en druk op de blauwe knop `Toevoegen aan Firefox`.
